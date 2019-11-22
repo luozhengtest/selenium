@@ -1,7 +1,9 @@
-#   utf-8
+#   coding=utf-8
 #   auth-lz
 from selenium import webdriver
 print('导入webdriver包')
-webdriver.Chrome()
+pcc = webdriver.Chrome()
 print('打开浏览器')
+pcc.get("http://www.baidu.com")
+print('进入百度')
 
